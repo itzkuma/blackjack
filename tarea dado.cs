@@ -35,11 +35,15 @@ namespace juego
                     
                }
 
-               //else if ( dado1==12 && dado1==10)
-                //{
-                    //Console.WriteLine("GANASTE!");
-                   //Continuar = "n";
-                //}
+               else if ( dado1==10)
+                {
+                   if(dado1==12)
+                   {
+                   Console.WriteLine("GANASTE!");
+                   Continuar = "n";
+                   }
+                  
+                }
                else
                 {
                     Console.WriteLine("Deseas Continuar? (s/n)");
